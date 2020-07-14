@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Pratico Modulo - 1</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <h1>CONTROLE DE CORES</h1>
+  <form>
+    <div>
+      <label>
+        (R) Vermelho:
+        <input
+          id="rangeVermelho"
+          type="range"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <input id="valorAtualizadoVermelho" type="text" value="0" disabled />
+      </label>
+    </div>
+    <div>
+      <label>
+        (V) Verde:
+        <input
+          id="rangeVerde"
+          type="range"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <input id="valorAtualizadoVerde" type="text" value="0" disabled />
+      </label>
+    </div>
+    <div>
+      <label>
+        (B) Azul:
+        <input
+          id="rangeAzul"
+          type="range"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <input id="valorAtualizadoAzul" type="text" value="0" disabled />
+      </label>
+    </div>
+    <br />
+    <br />
+    <div id="cores">&nbsp</div>
+  </form>
+  <script src="./js/script.js"></script>
+  <body></body>
+</html>
